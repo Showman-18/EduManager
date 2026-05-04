@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Build outputs (electron-builder output — do not commit)
+dist-electron/
+
+# Vite build output
+frontend/dist/
+
+# Backend data
+backend/data/backups/
+
+# Electron
+electron/dist/
+*.asar
+*.app
+
+# NOTE: build/ folder (icons) is intentionally NOT ignored
+# so icon.icns / icon.ico / icon.png are committed and available to GitHub Actions
